@@ -327,6 +327,8 @@ span {
   margin-top: 50px;
 
 }
+
+
 /* 
 a{
   text-decoration: none;
@@ -452,7 +454,7 @@ a{
         padding-top: 57px;
     }
     .register-here-button-container{
-      color: white;
+      color: black;
       font-family: 'Poppins', sans-serif;
       font-size: 18px;
       font-weight: 800;
@@ -477,18 +479,12 @@ a{
         position: relative;
         left: -25px;
     }
-}
-
-
-@media all and (max-width: 600px)
-{
-
     .social-container{
-        display: block; 
-        position: relative;
-        bottom: -20px;
-        left: 95px;
-    }
+      display: block; 
+      position: relative;
+      bottom: -20px;
+      left: 95px;
+  }
 }
 
 

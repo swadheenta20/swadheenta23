@@ -5,8 +5,6 @@ html body{
 }
 
 .main-page {
-    height: 100vh;
-    overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
 
@@ -566,6 +564,7 @@ html body{
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
+
 
 
 @keyframes animStar {
