@@ -2,6 +2,7 @@ html body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: white;
 }
 
 .main-site-body{
@@ -297,6 +298,87 @@ span {
   position: absolute;
   right: 49px;
   top: 29px;
+}
+
+.centertext{
+  text-decoration: none;
+  text-align: center;
+}
+
+.subtext{
+  text-decoration: underline;
+}
+
+.black{
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.subtext{
+  font-size: 1rem;
+}
+
+.sponsorsimages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+}
+/* 
+a{
+  text-decoration: none;
+  color: black;
+  font-family: "Raleway" , "sans-serif";
+} */
+
+.sponsors{
+  margin-top: 70px;
+}
+
+.sponsor1{
+  margin: 50px;
+}
+
+
+.promotions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Raleway" , "sans-serif";  
+  margin-top: 50px;
+}
+
+
+.sponsorquestion-box1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:50px;
+  max-width: 230px;
+}
+
+.maintextpromo{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.whyus{
+  padding-top: 50px;
+  background-color: aliceblue;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+.w3-center{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Raleway" , "sans-serif";
 }
 
 @keyframes animateTop {
